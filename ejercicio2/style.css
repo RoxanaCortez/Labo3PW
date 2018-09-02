@@ -2,78 +2,69 @@ h1 {
     text-align: center;
     color: brown;
     font-style: italic;
-    margin-bottom: 3%;
-    margin-top: 3%;
-    
-    
+    margin-bottom: 2%;
+    margin-top: 2%;  
 }
 
-
+tr{
+    border-spacing: 0;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
 
 table {
    margin: auto;
    border-spacing: 0px;
 }
 
-tr{
-    background-color: white;
-    
-    
-}
-
 td{
+    margin: auto;
     text-align: center;
-    height: 50px;
-    width: 50px;
+    width: 3.3em;
+    height: 3.3em;
 }
 
-table tr:nth-child(odd) td:nth-child(even), 
-table tr:nth-child(even) td:nth-child(odd){
-    background-color: black;
-    color: black;
-    
-}
-
-
-table tr:nth-child(odd) td:nth-child(even):hover, 
-table tr:nth-child(even) td:nth-child(odd):hover{
-    background-color: brown;
-    color: white;
-    
-}
-
-
-table tr:nth-child(odd) td:not(:nth-child(even)), 
-table tr:nth-child(even) td:not(:nth-child(odd)){
+.blanco{
     background-color: white;
+    color: black;
+    width: 3.3em;
+    height: 3.3em;
+    text-align: center;
+}
+
+.negro{
+    background-color: black;
     color:white;
-    
+    width: 3.3em;
+    height: 3.3em;
+    text-align: center;
 }
 
-table tr:nth-child(odd) td:not(:nth-child(even)):hover, 
-table tr:nth-child(even) td:not(:nth-child(odd)):hover{
+table td p{
+    margin: 0%;
+    visibility: hidden;
+    text-align: center;
+
+} 
+
+table td:hover p{
+    visibility: visible;
+}
+
+table td:hover .blanco{
     background-color: rgba(255, 0, 0, 0.5);
-    color:black;
-    
 }
 
-
-
-footer{
-    margin-top: 5%;
-    
+table td:hover .negro{
+    background-color:rgba(255, 0, 0, 0.5);
 }
 
-.fizquierda{  
+.fizquierda, .fcentro, .fderecha{  
   float:left;  
-  width: 100px;
+  width: 33%;
+  padding-top: 3%;
+  text-align: center;
+  font-style: oblique;
+  display: inline;
+
 }  
-a{
-  width: 100px;
-  margin: auto; 
-  color: black;  
-}  
-.fderecha{  
-  float: right;    
-  width: 100px;
-}

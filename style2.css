@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    color: brown;
+    font-style: italic;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    
+    
+}
+
+
+
+table {
+   margin: auto;
+   border-spacing: 0px;
+}
+
+tr{
+    background-color: white;
+    
+    
+}
+
+td{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+table tr:nth-child(odd) td:nth-child(even), 
+table tr:nth-child(even) td:nth-child(odd){
+    background-color: black;
+    color: black;
+    
+}
+
+
+table tr:nth-child(odd) td:nth-child(even):hover, 
+table tr:nth-child(even) td:nth-child(odd):hover{
+    background-color: brown;
+    color: white;
+    
+}
+
+
+table tr:nth-child(odd) td:not(:nth-child(even)), 
+table tr:nth-child(even) td:not(:nth-child(odd)){
+    background-color: white;
+    color:white;
+    
+}
+
+table tr:nth-child(odd) td:not(:nth-child(even)):hover, 
+table tr:nth-child(even) td:not(:nth-child(odd)):hover{
+    background-color: rgba(255, 0, 0, 0.5);
+    color:black;
+    
+}
+
+
+
+footer{
+    margin-top: 5%;
+    
+}
+
+.fizquierda{  
+  float:left;  
+  width: 100px;
+}  
+a{
+  width: 100px;
+  margin: auto; 
+  color: black;  
+}  
+.fderecha{  
+  float: right;    
+  width: 100px;
+}
