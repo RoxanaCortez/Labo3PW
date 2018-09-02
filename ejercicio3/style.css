@@ -1,0 +1,287 @@
+
+
+/*Tamaños*/
+
+.btnNor{
+    height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: gray;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #F4F6F7;
+}
+
+.btnPeq{
+    height: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: gray;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #F4F6F7;
+}
+
+.btnGra{
+    height: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    font-size: 22px;
+    color: gray;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #F4F6F7;   
+}
+
+/*Colores*/
+
+.btnEsm{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #58D68D;
+}
+
+.btnCie{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:white;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #5DADE2;
+}
+
+.btnAma{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:white;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #A569BD;
+}
+
+.btnAsf{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:white;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #5D6D7E  ;
+}
+
+.btnTop{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:white;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #E68A3E  ;
+}
+
+.btnRub{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:white;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #F76656;
+}
+
+/*Bordeado*/
+
+.btnBsim{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: gray;
+    border-radius: 7px;
+    text-align: center;
+    background-color: transparent;
+    border-color: gray;
+    border-width: 1px;
+}
+.btnBesm{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #58D68D;
+    border-radius: 7px;
+    text-align: center;
+    background-color: transparent;
+    border-color: #58D68D;
+    border-style: solid;
+    border-width: 1px; 
+}
+
+.btnBcie{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:#5DADE2;
+    border-radius: 7px;
+    text-align: center;
+    background-color: transparent;
+    border-color: #5DADE2;
+    border-style: solid;
+    border-width: 1px; 
+}
+
+.btnBama{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:#A569BD;
+    border-radius: 7px;
+    text-align: center;
+    background-color: transparent;
+    border-color: #A569BD;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.btnBasf{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:#5D6D7E;
+    border-radius: 7px;
+    text-align: center;
+    background-color: transparent;
+    border-color: #5D6D7E;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.btnBtop{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:#E68A3E;
+    border-radius: 7px;
+    text-align: center;
+    background-color: transparent;
+    border-color: #E68A3E;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.btnBrub{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:#F76656;
+    border-radius: 7px;
+    text-align: center;
+    background-color: transparent;
+    border-color: #F76656;
+    border-style: solid;
+    border-width: 1px;;
+}
+
+
+/*Combinaciones*/
+
+.btnLar{
+    height: 60px;
+    margin-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:white;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #5D6D7E;
+
+}
+
+.btnBor{
+    height: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:#5DADE2;
+    border-radius: 7px;
+    text-align: center;
+    background-color: transparent;
+    border-color: #5DADE2;
+    border-style: solid;
+    border-width: 1px; 
+}
+
+.btnPesm{
+    height: 30px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #58D68D;
+}
+
+.btnGru{
+    height: 60px;
+    margin-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 22px;
+    color:#F76656;
+    border-radius: 7px;
+    text-align: center;
+    background-color: transparent;
+    border-color: #F76656;
+    border-style: solid;
+    border-width: 2px;;
+}
